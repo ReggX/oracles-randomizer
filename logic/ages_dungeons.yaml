@@ -44,7 +44,7 @@ d2 thwomp shelf: [d2 basement,
     or: [feather, [hard, cane, or: [pegasus satchel, bombs]]]]
 d2 basement drop: [d2 basement, feather]
 d2 basement chest: [
-    d2 basement, feather, bombs, hit lever from minecart, kill normal]
+    d2 basement, feather, bombs, hit lever from minecart above, kill normal]
 
 # 3 keys
 d2 moblin platform: [d2 basement, feather, count: [3, d2 small key]]
@@ -73,6 +73,7 @@ d3 E crystal: [d3 1F spinner, bombs]
 d3 statue drop: [d3 E crystal]
 
 # 1 key
+d3 seeds from bridge room: [enter d3, d3 small key, seed item, or: [sword, bombs]]
 # you can clip into the blocks enough to hit this crystal with switch hook
 d3 W crystal: [enter d3, d3 small key]
 d3 N crystal: [d3 W crystal,
@@ -136,7 +137,7 @@ d4 first crystal switch: [d4 minecart A,
 d4 minecart chest: [d4 minecart A, hit lever]
 
 # 2 keys
-d4 minecart B: [d4 minecart A, hit lever, bracelet, kill normal,
+d4 minecart B: [d4 minecart A, hit lever from minecart, bracelet, kill normal,
     count: [2, d4 small key]]
 d4 second crystal switch: [d4 minecart B,
     or: [any seed shooter, [hard, boomerang]]]
@@ -148,7 +149,7 @@ d4 color tile drop: [d4 minecart C,
         [hard, scent satchel]]]
 
 # 4 keys
-d4 minecart D: [d4 minecart C, count: [4, d4 small key]]
+d4 minecart D: [d4 color tile drop, count: [4, d4 small key]]
 d4 miniboss: [d4 minecart D,
     or: [sword, switch hook, scent shooter, punch enemy]]
 d4 small floor puzzle: [d4 miniboss, bombs]
@@ -223,12 +224,12 @@ d6 boss: [d6 past spinner, d6 boss key, any seed shooter,
 d6 present diamond chest: [enter d6 present, switch hook]
 d6 present rope room: [enter d6 present,
     or: [flippers, feather, switch hook],
-    or: [any seed shooter, boomerang, jump 3]]
+    or: [any seed shooter, boomerang, jump 3, [bomb jump 2, sword]]]
 scent seduction owl: [mystery seeds, d6 present rope room]
 d6 present rope chest: [d6 present rope room, scent satchel]
 d6 present hand room: [enter d6 present,
     or: [flippers, feather, switch hook],
-    or: [any seed shooter, boomerang,
+    or: [any seed shooter, boomerang, [bomb jump 2, sword],
         [jump 3, or: [sword, switch hook, ember seeds,
             scent seeds, mystery seeds, [hard, bombs]]]]]
 d6 present cube chest: [d6 present hand room, bombs, switch hook,
@@ -320,7 +321,7 @@ d8 NW slate chest: [d8 maze chest]
 d8 NE slate chest: [d8 maze chest, feather, flippers, ember seeds]
 ancient words owl: [mystery shooter, d8 NE slate chest]
 d8 B3F chest: [d8 maze chest, power glove]
-d8 tile room: [d8 maze chest, feather]
+d8 tile room: [d8 maze chest, power glove, feather]
 d8 SE slate chest: [d8 tile room]
 d8 boss: [d8 boss key, d8 tile room, count: [4, slate]]
 

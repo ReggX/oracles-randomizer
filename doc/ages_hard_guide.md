@@ -10,7 +10,7 @@ for a list of things that are out of logic even in hard.
 - Use mystery seeds to light torches (1 in 4 chance of success). This is only
   in logic for rooms with no more than 2 torches.
 - Get scent seeds from the plants in D3.
-- Get bombs from Head Thwomp or Goron Shooting Gallery (200-299 rupees).
+- Get bombs from Head Thwomp or Goron Shooting Gallery (200-299 points).
 - Get a random potion from Maple instead of buying one from Syrup.
 - Use bomb boosts to increase jump distance. Drop a bomb near the gap you're
   jumping, move slightly closer to the gap, and jump in the desired direction
@@ -97,6 +97,8 @@ for a list of things that are out of logic even in hard.
   then mid pitch. [[Video]](https://streamable.com/guma6)
 - Walk diagonally across the corners of pits in the D6 present cube puzzle. [No
   video.]
+- Use bomb jumps + sword to traverse the D6 present room with the switch that
+  changes the floor tile pattern. [[Videp]](https://youtu.be/EqXjIhgYo1A)
 
 ## Not in logic because you could softlock but still cool
 
