@@ -47,8 +47,13 @@ enter swoop: [inner d2,
 d2 basement: [enter swoop, kill swoop]
 blue wing owl: [mystery seeds, d2 basement]
 d2 thwomp tunnel: [d2 basement]
-d2 thwomp shelf: [d2 basement,
-    or: [feather, [hard, cane, or: [pegasus satchel, bombs]]]]
+d2 thwomp shelf: [d2 basement, or: [
+    feather, 
+    [hard, cane, or: [
+        pegasus satchel, 
+        bombs,
+        sword]]
+]]
 d2 basement drop: [d2 basement, feather]
 d2 basement chest: [
     d2 basement, feather, bombs, hit lever from minecart above, kill normal]
@@ -214,7 +219,10 @@ enter d6 present: {or: []}
 enter d6 past: {or: []}
 
 # past, 0 keys
-d6 past color room: [inner d6 past, feather, kill switch hook]
+d6 past color room: [enter d6 past, kill switch hook, or: [
+    feather, 
+    [hard, mystery seeds]
+]]
 d6 past wizzrobe chest: [inner d6 past, bombs, kill normal]
 d6 past pool chest: [inner d6 past, bombs, ember seeds, flippers]
 d6 open wall: [inner d6 past, bombs, ember shooter]
@@ -330,14 +338,17 @@ d8 sarcophagus chest: [d8 blue peg chest, power glove]
 d8 stalfos: [d8 blue peg chest]
 
 # 4 keys - reach miniboss
-d8 maze chest: [d8 blue peg chest, feather, sword, count: [4, d8 small key]]
+d8 maze chest: [d8 blue peg chest, or: [
+    [feather, sword, count: [4, d8 small key]],
+    hard # darknut clip
+]]
 d8 NW slate chest: [d8 maze chest]
 d8 NE slate chest: [d8 maze chest, feather, flippers, ember seeds]
 ancient words owl: [mystery shooter, d8 NE slate chest]
 d8 B3F chest: [d8 maze chest, power glove]
 d8 tile room: [d8 maze chest, power glove, feather]
 d8 SE slate chest: [d8 tile room]
-d8 boss: [d8 boss key, d8 tile room, count: [4, slate]]
+d8 boss: [d8 boss key, d8 tile room, count: [4, slate], sword]
 
 # 5 keys
 d8 floor puzzle: [d8 blue peg chest, count: [5, d8 small key]]
